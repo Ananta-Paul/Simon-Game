@@ -52,12 +52,19 @@ body {
   margin: 20px;
   height: 2rem;
   width: 8rem;
-  border: 4px solid rgb(243, 239, 22);
-  background-color: rgb(243, 239, 22);
-  -moz-border-radius: 8;
+  border: 0px solid #dd12e48c;
+  background-color: greenyellow;
+  -moz-border-radius: 10;
   border-radius: 8px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   /* border-radius: 10%; */
   margin:auto;
+}
+.start:hover{
+  background: blueviolet;
+  text-decoration-color: Blue;
 }
 
 .pressed {
@@ -75,6 +82,11 @@ footer {
   .container{
       margin-top: 20%;
       margin-bottom:20%;
+    
+  }
+ .btn{
+  height: 20rem;
+  width: 20rem;
   }
   
   
